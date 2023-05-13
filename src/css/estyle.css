@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(249, 30%, 95%);
+    font-family: poppins;
+    color:rgb(255,255,255,255); 
+    
+}
+main{
+    display: table;
+    margin: 50px auto 0 auto;
+    width: 1440px;
+    height: 880px;
+    background-color:hsl(0, 100%, 74%) ;
+     
+    
+   
+}
+h1{
+    font-size: 34px;
+}
+p{
+    font-size: 16px;
+}
+#col01{
+    margin: 250px 50px 0 50px;
+
+                   
+}
+#col02{
+   
+           
+}
+.container{
+
+}
+.box{
+    display: inline-block;
+    width: 720px;
+}
+
+.formulario{
+    display: table;
+    padding: 40px;
+    width: 350px;
+    height:380px;
+    background-color: rgb(255,255,255,255);
+    border-radius:8px;
+    border-color: hsl(249, 10%, 26%) ;
+    color: hsl(249, 10%, 26%) ;
+    margin-top:20px;
+    box-shadow: 4px 4px 8px hsl(249, 10%, 26%) ;
+           
+}
+
+.botao{
+    border-radius: 8px;
+    border: none;
+    color:rgb(255,255,255,255);
+    background-color:  hsl(248, 32%, 49%);
+          
+    }
+
+.grid{
+    display: table;
+    width: 350px;
+    height: 56px;
+    border-radius: 8px;
+    border-color:hsl(249, 10%, 26%) ;
+          
+
+}
+.termos{
+    text-align: center;
+    font-size: 10px;
+    color:hsl(260, 2%, 65%); ;
+}
+.destacar{
+    text-align: center;
+    font-size: 10px;
+    color:rgb(207,14,14);
+    }
+
+ #topo{
+    width: 430px;
+    height: 56px;
+    margin-top: 100px;
+    box-shadow: 4px 4px 8px hsl(249, 10%, 26%) ;
+    }
+#enviar{
+    width: 350px;
+    height: 56px;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 4px 4px 8px hsl(128, 96%, 11%);
+}
+
+
+@media (max-width: 1440px) {
+	main {
+		max-width: 375px;
+    
+	}
