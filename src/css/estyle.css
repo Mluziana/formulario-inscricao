@@ -11,10 +11,12 @@ main{
     margin: 50px auto 0 auto;
     width: 1440px;
     height: 880px;
+    background-image: url("/src/images/bg-intro-desktop.png");
+    background-repeat: no-repeat; /* Define se a imagem deve se repetir na tela */
+    background-size: cover; /* Define o modo de redimensionamento da imagem */
+    background-position: center; /* Define a posição da imagem no fundo */
     background-color:hsl(0, 100%, 74%) ;
      
-    
-   
 }
 h1{
     font-size: 34px;
